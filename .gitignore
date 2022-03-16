@@ -20,3 +20,18 @@ golang-impression-counter
 
 # Go workspace file
 go.work
+
+# Terraform
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Plan
+*.tfplan
