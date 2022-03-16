@@ -5,6 +5,8 @@ This sample code uses Amazon ElastiCache for Redis as its data store.
 
 To connect to private resources, AWS App Runner use a VPC Connector, that connects App Runner services into a custom VPC as describe in [this](https://docs.aws.amazon.com/apprunner/latest/dg/network-vpc.html) documentation.
 
+AWS App Runner [image-base service](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-image.html) allow to run any docker container image in any development language, and [Code-base service](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-code.html) on supported languages App Runner will build the service source code on the service runtime docker images, removing the need to manage build infrastructure.
+
 ## Setup
 
 >ToDo
