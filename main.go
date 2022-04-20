@@ -48,9 +48,9 @@ func GetCounter(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	router := mux.NewRouter()
-	router.HandleFunc("/", GetRootRequest).Methods("GET")
+	router.HandleFunc("/", GetImpression).Methods("GET")
+	router.HandleFunc("/info", GetRootRequest).Methods("GET")
 	router.HandleFunc("/ping", GetPing).Methods("GET")
-	router.HandleFunc("/i", GetImpression).Methods("GET")
 	router.HandleFunc("/admin", GetCounter).Methods("GET")
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
