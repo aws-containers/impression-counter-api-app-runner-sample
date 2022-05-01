@@ -46,7 +46,7 @@ This is a manual step by step that will install this sample code inside your VPC
 
 ## Architecture
 
-![Architecture](img/impression-counter-api-app-runner-sample.png)
+![Architecture](img/impression-counter-api-app-runner-sample-1.png)
 
 ## Security
 
